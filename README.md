@@ -14,3 +14,7 @@ Face Detection Server using Django
 - [ ] Switch Tornade
 - [ ] Write down README
 - [ ] Add badge
+- [ ] Use Web Camera
+
+## Author
+[hurutoriya](https://github.com/hurutoriya)
