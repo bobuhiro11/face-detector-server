@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'face_detection',
+    'face_detection', # Our Apps.
     'face_detection_rest',
     'rest_framework',
 ]
@@ -116,5 +116,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, '..', 'uploaded_media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploaded_image')
 MEDIA_URL = '/media/'
