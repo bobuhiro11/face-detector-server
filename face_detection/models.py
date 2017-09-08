@@ -1,5 +1,9 @@
 from django.db import models
 
 
+def scramble_uploaded_filename(instance, filename):
+    extension = filename.split(".")[-1]
+    return "{}.{}".format(uuid.uuid4(), extension)
+
 class UploadedImage(models.Model):
-  data = models.ImageField(upload_to='uploaded_images')
+    image = models.ImageField('Uploaded image')
