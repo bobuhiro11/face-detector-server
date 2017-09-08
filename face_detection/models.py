@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+
+class UploadedImage(models.Model):
+  data = models.ImageField(upload_to='original_images')
